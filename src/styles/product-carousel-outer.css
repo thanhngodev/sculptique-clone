@@ -44,3 +44,128 @@
 .product_ugc-carousel-nav img {
   @apply w-full max-w-[32px];
 }
+
+/* 9 -> 11  */
+.product_faq_container {
+  max-width: 824px;
+  margin: auto;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fff, #f7a0a0bf);
+  overflow: hidden;
+  padding: 32px;
+}
+
+.product_faq_container {
+  background: linear-gradient(180deg, #fff, #f3eee0);
+}
+
+.product_faq-box {
+  padding: 20px 24px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  @apply max-[768px]:py-[16px] max-[768px]:px-[0];
+}
+
+.product_faq-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.product_faq-thumb p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+.product_faq-thumb svg {
+  width: 16px;
+  transition: all 0.2s;
+}
+
+.product_faq-box.active .product_faq-thumb svg {
+  transform: rotate(180deg);
+}
+
+.product_faq-content {
+  padding-top: 16px;
+  display: none;
+}
+
+.product_faq-box.active .product_faq-content {
+  display: block;
+}
+
+.product_faq-content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.product_stats-outer {
+  display: flex;
+  align-items: center;
+}
+
+.product_stats-outer > div:nth-child(2) {
+  width: 70%;
+}
+
+.product_stats-outer > div:nth-child(1) {
+  width: 100%;
+}
+
+.product_stats-outer img {
+  width: 100%;
+}
+
+.product_expert-media img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.product_text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.product_text-image > div {
+  width: 100%;
+}
+
+.product_text-image-reviews {
+  max-width: 350px;
+}
+
+.product_text-image img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .product_stats-outer {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .product_stats-outer > div:nth-child(2) {
+    width: 100%;
+  }
+
+  .product_text-image {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .product_text-image-reviews {
+    max-width: 250px;
+    margin: auto;
+    display: block;
+  }
+}

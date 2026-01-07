@@ -95,7 +95,7 @@
 .pli_top-text li {
   padding-left: 32px;
   color: #0c7c00;
-  background-image: url(../assets/images/checked.png);
+  background-image: url(/assets/images/checked.png);
   background-size: 20px;
   background-repeat: no-repeat;
   list-style: none;
@@ -114,7 +114,7 @@
 .pli_pink-text li {
   padding-left: 32px;
   color: #a60003;
-  background-image: url(../assets/images/remove.png);
+  background-image: url(/assets/images/remove.png);
   background-size: 20px;
   background-repeat: no-repeat;
   list-style: none;

@@ -255,7 +255,7 @@ $(document).ready(function () {
 
         <div class="jdgm-row-profile">
           <div class="jdgm-rev__icon h-[30px] w-[30px]">
-            <img src="./assets/images/user-check.png" />
+            <img src="/assets/images/user-check.png" />
           </div>
           <span class="jdgm-rev__author-wrapper">
             <span class="jdgm-rev__author">${item.author}</span>

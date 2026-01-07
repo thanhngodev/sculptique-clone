@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./src/styles/main.css -o ./src/styles/output.css --watch",
-    "build": "tailwindcss -i ./src/styles/main.css -o ./src/styles/output.css"
+    "dev": "vite",
+    "build": "rm -rf dist && mkdir -p dist && tailwindcss -i ./src/styles/main.css -o ./dist/assets/output.css && vite build",
+    "preview": "vite preview --port 4173",
+    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./dist/assets/output.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,9 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "vite": "^6.4.1"
   }
 }
