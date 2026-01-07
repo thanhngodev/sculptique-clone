@@ -224,7 +224,7 @@
 }
 
 .product_judge-outer.product_lymphg-ingr-outer img.product_lymph-main-img {
-  @apply max-[768px]:m-0 max-[768px]:w-full max-[768px]:max-w-[100px];
+  @apply max-[768px]:m-0 max-[768px]:w-full max-[768px]:max-w-full;
 }
 
 .product_lymph-ingr-thumb {
