@@ -452,7 +452,7 @@
 
 .section_press_logos_outer .logos_wrap {
   display: flex;
-  animation: logo_scroll 60s infinite linear;
+  animation: logo_scroll 20s infinite linear;
   align-items: center;
   width: fit-content;
 }
