@@ -12,7 +12,7 @@ A responsive e-commerce website clone for Sculptique, a health and wellness prod
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/sculptique-clone.git
+   git clone https://github.com/thanhngodev/sculptique-clone.git
    cd sculptique-clone
    ```
 
@@ -40,7 +40,6 @@ A responsive e-commerce website clone for Sculptique, a health and wellness prod
 
 3. **Viewing the Project**
    - Open `src/index.html` in your web browser
-   - For a better development experience, consider using a local server like `live-server` or `http-server`
 
 ## 🛠️ Tools & Technologies
 
@@ -50,11 +49,6 @@ A responsive e-commerce website clone for Sculptique, a health and wellness prod
   - JavaScript (Vanilla)
   - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
   - [Slick Carousel](https://kenwheeler.github.io/slick/) - For image carousels
-
-- **Development Tools**
-  - npm - Package manager
-  - PostCSS - CSS processing
-  - Autoprefixer - CSS compatibility
 
 ## 📁 Project Structure
 
@@ -84,11 +78,3 @@ sculptique-clone/
 - To modify styles, edit the `src/styles/main.css` file.
 - Tailwind configuration can be found in `tailwind.config.js` (if present).
 - Add new JavaScript functionality in the `src/scripts/` directory.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
