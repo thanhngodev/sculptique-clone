@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "rm -rf dist && mkdir -p dist && tailwindcss -i ./src/styles/main.css -o ./dist/assets/output.css && vite build",
+    "dev": "vite build && vite",
+    "build": "rm -rf dist && mkdir -p dist && tailwindcss -i ./src/styles/main.css -o ./public/assets/output.css && vite build",
     "preview": "vite preview --port 4173",
-    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./dist/assets/output.css --watch"
+    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./public/assets/output.css --watch"
   },
   "keywords": [],
   "author": "",

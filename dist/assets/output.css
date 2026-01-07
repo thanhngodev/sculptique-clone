@@ -913,16 +913,25 @@
   }
   .col_pp_atc_usp_line p {
     margin: calc(var(--spacing) * 0);
-    font-size: 16px;
+    font-size: 12px;
     --tw-leading: 1.3em;
     line-height: 1.3em;
+    @media (width >= 48rem) {
+      font-size: 16px;
+    }
   }
   .col_pp_atc_usp_line span {
     border-radius: 4px;
     background-color: #039869 !important;
-    padding-inline: calc(var(--spacing) * 2);
-    padding-block: calc(var(--spacing) * 1);
+    padding-inline: 4px;
+    padding-block: 2px;
     color: var(--color-white);
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 2);
+    }
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 1);
+    }
   }
   .product-selector_atc, .product-selector_atc_champs {
     margin-top: calc(var(--spacing) * 3);
@@ -963,14 +972,23 @@
   }
   .product_atc-footer-inline img, .product_atc-footer-inline svg {
     display: block;
-    height: calc(var(--spacing) * 5);
-    width: calc(var(--spacing) * 5);
+    height: 14px;
+    width: 14px;
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 5);
+    }
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 5);
+    }
   }
   .product_atc-footer-inline p {
     margin: calc(var(--spacing) * 0);
-    font-size: 16px;
+    font-size: 11px;
     --tw-leading: 1.3em;
     line-height: 1.3em;
+    @media (width >= 48rem) {
+      font-size: 16px;
+    }
   }
   .product_payment-icons {
     margin-block: calc(var(--spacing) * 4);
