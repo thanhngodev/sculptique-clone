@@ -1,0 +1,46 @@
+.product_ugc-container,
+.product_review-container {
+  margin-bottom: 40px !important;
+}
+
+.product_ugc-container .slick-dots,
+.product_review-container .slick-dots {
+  @apply !flex !w-full !max-w-[calc(100%-200px)] !gap-0 max-[768px]:!pl-2 max-[768px]:!max-w-[calc(100%-100px)];
+  bottom: -44px !important;
+}
+
+.product_ugc-container .slick-dots li,
+.product_review-container .slick-dots li {
+  @apply !m-0 !w-full;
+}
+
+.product_ugc-container .slick-dots li button,
+.product_review-container .slick-dots li button {
+  @apply !p-0 !h-1 !w-full !bg-[#00000026];
+}
+
+.product_ugc-container .slick-dots li button:before,
+.product_review-container .slick-dots li button:before {
+  content: "" !important;
+  opacity: 0 !important;
+}
+
+.product_revcar-badge,
+.product_ugc-container .slick-dots li.slick-active button,
+.product_review-container .slick-dots li.slick-active button {
+  @apply !bg-[#039869];
+}
+
+.product_ugc-carousel-nav {
+  @apply ml-auto flex justify-end gap-3 items-center -mt-[50px] py-[20px];
+  @apply max-[768px]:pr-4;
+}
+
+.product_carousel-prev,
+.product_carousel-next {
+  @apply cursor-pointer;
+}
+
+.product_ugc-carousel-nav img {
+  @apply w-full max-w-[32px];
+}
